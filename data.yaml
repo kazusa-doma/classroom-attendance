@@ -1,0 +1,5 @@
+names:
+- upperbody
+path: dataset
+train: images/train
+val: images/val

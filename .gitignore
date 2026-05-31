@@ -1,0 +1,29 @@
+# 虚拟环境
+.venv/
+
+# IDE
+.idea/
+
+# 大视频文件
+*.mp4
+*.fig
+
+# YOLO 模型权重
+*.pt
+
+# 训练输出
+runs/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 数据集（如果太大的话可以考虑忽略）
+dataset2/
+
+# 嵌套 Git 仓库
+pythonProject/
+
+# classroomtrain 目录
+classroomtrain/
