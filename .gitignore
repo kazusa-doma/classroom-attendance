@@ -8,22 +8,24 @@
 *.mp4
 *.fig
 
-# YOLO 模型权重
-*.pt
+# 基础 YOLO 模型权重
+/yolov8n.pt
 
-# 训练输出
-runs/
+# 根目录训练输出
+/runs/
 
 # Python 缓存
 __pycache__/
 *.pyc
 *.pyo
 
-# 数据集（如果太大的话可以考虑忽略）
-dataset2/
+# 数据集（只保留训练好的模型权重）
+dataset2/*
+!dataset2/runs/
 
 # 嵌套 Git 仓库
 pythonProject/
 
-# classroomtrain 目录
-classroomtrain/
+# classroomtrain（只保留训练好的模型权重）
+classroomtrain/*
+!classroomtrain/runs/
